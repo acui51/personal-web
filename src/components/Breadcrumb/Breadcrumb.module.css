@@ -1,0 +1,22 @@
+.Headers {
+  display: flex;
+}
+
+.Header {
+  cursor: pointer;
+}
+
+.Header {
+  text-decoration: none;
+  color: #666666 !important;
+}
+
+.Header:hover {
+  text-decoration: none !important;
+  color: black !important;
+}
+
+.Header:visited {
+  text-decoration: none;
+  color: black;
+}

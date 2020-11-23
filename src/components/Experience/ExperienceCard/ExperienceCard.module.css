@@ -1,0 +1,20 @@
+.ExperienceCard {
+  margin-top: 20px;
+}
+
+::marker {
+  content: "»";
+  font-size: 3em;
+
+  --hue: 0;
+  color: hsl(var(--hue) 50% 50%);
+}
+
+li {
+  padding-inline-start: 1ch;
+}
+
+li::marker {
+  --hue: 352;
+  font-size: 1.2em;
+}
