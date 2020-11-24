@@ -1,10 +1,11 @@
 import React from "react";
+import "./Footer.module.css";
 
 const Footer = () => {
   let d = new Date();
   d = d.getFullYear();
   return (
-    <footer style={{ position: "absolute", bottom: "0" }}>
+    <footer className="Footer">
       <small>&copy;{d} Alix Cui </small>
     </footer>
   );

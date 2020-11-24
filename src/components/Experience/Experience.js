@@ -7,7 +7,15 @@ export default function Experience() {
     <div className={styles.Experience}>
       <h1>Experience</h1>
       <ExperienceCard
+        company={"Amazon"}
+        color={"#FF9900"}
+        occupation={"Software Development Engineer Intern"}
+        description={["Incoming Summer 2021"]}
+        dates={"Jun 2021 - Sep 2021"}
+      />
+      <ExperienceCard
         company={"Stanford"}
+        color={"#B83A4B"}
         occupation={"Full Stack Engineer Intern"}
         description={[
           "Converting a logic courseware application to a newly improved web-based application using the MVC paradigm",
@@ -20,6 +28,7 @@ export default function Experience() {
       />
       <ExperienceCard
         company={"Stanford Carta"}
+        color={"#B83A4B"}
         occupation={"Front-end Engineer"}
         description={[
           "Aiding in front-end development for Carta V2 and V3",

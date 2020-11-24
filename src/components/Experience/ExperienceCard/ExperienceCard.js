@@ -8,16 +8,18 @@ export default function ExperienceCard(props) {
     return <li key={id}>{elem}</li>;
   });
 
-  const technologyList = props.technologies.map((elem, id) => {
-    return <ProjectTechnology key={id}>{elem}</ProjectTechnology>;
-  });
+  const technologyList =
+    props.technologies &&
+    props.technologies.map((elem, id) => {
+      return <ProjectTechnology key={id}>{elem}</ProjectTechnology>;
+    });
 
   return (
     <div className={styles.ExperienceCard}>
       <Container>
         <Row>
           <Col md={4}>
-            <h2 style={{ color: "#B83A4B" }}>{props.company}</h2>
+            <h2 style={{ color: props.color }}>{props.company}</h2>
             <h5>{props.occupation}</h5>
             <h6>{props.dates}</h6>
           </Col>

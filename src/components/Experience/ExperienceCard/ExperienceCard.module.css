@@ -7,7 +7,7 @@
   font-size: 3em;
 
   --hue: 0;
-  color: hsl(var(--hue) 50% 50%);
+  color: hsl(var(--hue) 15% 15%);
 }
 
 li {
@@ -15,6 +15,6 @@ li {
 }
 
 li::marker {
-  --hue: 352;
+  --hue: 0;
   font-size: 1.2em;
 }
