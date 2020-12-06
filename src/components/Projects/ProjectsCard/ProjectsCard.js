@@ -15,12 +15,12 @@ export default function ProjectsCard() {
     <div className={styles.wrapper}>
       <div className={styles.center}>
         <div className={styles.propertyCard}>
-          <a href="#">
+          <span>
             <div
               className={styles.propertyImage}
               style={{ backgroundImage: `url(${ALIdemo})` }}
             ></div>
-          </a>
+          </span>
           <div className={styles.propertyDescription}>
             <h5> Applied Learning Initiative</h5>
             <p>
@@ -35,7 +35,11 @@ export default function ProjectsCard() {
               </div>
             </p>
           </div>
-          <a href="https://github.com/acui51/ali-project" target="_blank">
+          <a
+            href="https://github.com/acui51/ali-project"
+            target="_blank"
+            rel="noreferrer"
+          >
             <div className={styles.propertySocialIcons}>
               <AiFillGithub size={25} color={"#212529"} />
             </div>
@@ -45,12 +49,12 @@ export default function ProjectsCard() {
 
       <div className={styles.center}>
         <div className={styles.propertyCard}>
-          <a href="#">
+          <span>
             <div
               className={styles.propertyImage}
               style={{ backgroundImage: `url(${Telehistorydemo})` }}
             ></div>
-          </a>
+          </span>
           <div className={styles.propertyDescription}>
             <h5> Telehistory</h5>
             <p>
@@ -62,7 +66,11 @@ export default function ProjectsCard() {
               </div>
             </p>
           </div>
-          <a href="https://github.com/acui51/telehistory" target="_blank">
+          <a
+            href="https://github.com/acui51/telehistory"
+            target="_blank"
+            rel="noreferrer"
+          >
             <div className={styles.propertySocialIcons}>
               <AiFillGithub size={25} color={"#212529"} />
             </div>
