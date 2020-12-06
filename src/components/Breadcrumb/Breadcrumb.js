@@ -8,7 +8,7 @@ export default function Breadcrumb(props) {
   const headers = props.headers.map((elem, id) => {
     return (
       <span key={id}>
-        <a
+        <span
           className={styles.Header}
           onClick={() => props.click(elem)}
           style={
@@ -18,7 +18,7 @@ export default function Breadcrumb(props) {
           }
         >
           {elem}
-        </a>
+        </span>
         {id !== props.headers.length - 1 ? (
           <span style={{ marginRight: "5px", marginLeft: "5px" }}> / </span>
         ) : null}
