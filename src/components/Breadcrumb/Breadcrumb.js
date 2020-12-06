@@ -11,7 +11,11 @@ export default function Breadcrumb(props) {
         <a
           className={styles.Header}
           onClick={() => props.click(elem)}
-          style={elem === props.focused ? { color: "black" } : null}
+          style={
+            elem === props.focused
+              ? { borderBottom: "1px solid #666666" }
+              : null
+          }
         >
           {elem}
         </a>
