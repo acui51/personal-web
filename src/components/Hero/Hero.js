@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import { useHistory } from "react-router-dom";
 import Me from "../../assets/Me";
 import styles from "./Hero.module.css";
 import { Container, Row, Col } from "react-bootstrap";
@@ -11,10 +12,17 @@ import MeExperience from "../../assets/MeExperience";
 import MeProjects from "../../assets/MeProjects";
 import Footer from "../Footer/Footer";
 
-export default function Hero() {
+export default function Hero({ route }) {
   const [header, setHeader] = useState("Intro");
+  const history = useHistory();
+
+  useEffect(() => {
+    history.push(`/${route}`);
+    setHeader(route);
+  }, [route, history]);
 
   const onHeaderClick = (header) => {
+    history.push(`/${header}`);
     setHeader(header);
   };
 
@@ -35,6 +43,7 @@ export default function Hero() {
       break;
     default:
       section = <Intro />;
+      sectionIcon = <Me />;
   }
 
   return (
