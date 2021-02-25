@@ -7,7 +7,7 @@ import styles from "./Breadcrumb.module.css";
 export default function Breadcrumb(props) {
   const headers = props.headers.map((elem, id) => {
     return (
-      <span key={id}>
+      <span key={id} style={{ paddingTop: "5px" }}>
         <span
           className={styles.Header}
           onClick={() => props.click(elem)}

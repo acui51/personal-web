@@ -6,12 +6,20 @@ export default function Experience() {
   return (
     <div className={styles.Experience}>
       <h1>Experience</h1>
+
       <ExperienceCard
         company={"Amazon"}
         color={"#FF9900"}
         occupation={"Software Development Engineer Intern"}
         description={["Incoming Summer 2021"]}
         dates={"Jun 2021 - Sep 2021"}
+      />
+      <ExperienceCard
+        company="Washington Post"
+        color="#212121"
+        occupation="Software Engineer Intern"
+        description={["Incoming Spring 2021 (Site Team)"]}
+        dates="Mar 2021 - June 2021"
       />
       <ExperienceCard
         company={"Stanford"}
