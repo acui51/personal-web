@@ -4,6 +4,7 @@ import ProjectTechnology from "./ProjectTechnology/ProjectTechnology";
 import { AiFillGithub } from "react-icons/ai";
 import ALIdemo from "../../../assets/alidemo.gif";
 import Telehistorydemo from "../../../assets/telehistorydemo.gif";
+import Sproutdemo from "../../../assets/sproutdemo.gif";
 
 /**
  * Project Card Component Credit goes to markelrayes
@@ -13,6 +14,7 @@ import Telehistorydemo from "../../../assets/telehistorydemo.gif";
 export default function ProjectsCard() {
   return (
     <div className={styles.wrapper}>
+      {/* ALI */}
       <div className={styles.center}>
         <div className={styles.propertyCard}>
           <span>
@@ -47,6 +49,40 @@ export default function ProjectsCard() {
         </div>
       </div>
 
+      {/* Sprout */}
+      <div className={styles.center}>
+        <div className={styles.propertyCard}>
+          <span>
+            <div
+              className={styles.propertyImage}
+              style={{ backgroundImage: `url(${Sproutdemo})` }}
+            ></div>
+          </span>
+          <div className={styles.propertyDescription}>
+            <h5> Sprout App </h5>
+            <p>
+              A hi-fidelity prototype for an app that allows creators to train
+              together sounds and connect effortlessly.
+              <div className="d-flex flex-wrap justify-content-center">
+                <ProjectTechnology>React Native</ProjectTechnology>
+                <ProjectTechnology>Expo</ProjectTechnology>
+                <ProjectTechnology>Firebase</ProjectTechnology>
+              </div>
+            </p>
+          </div>
+          <a
+            href="https://github.com/acui51/sprout-app"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div className={styles.propertySocialIcons}>
+              <AiFillGithub size={25} color={"#212529"} />
+            </div>
+          </a>
+        </div>
+      </div>
+
+      {/* Telehistory */}
       <div className={styles.center}>
         <div className={styles.propertyCard}>
           <span>
