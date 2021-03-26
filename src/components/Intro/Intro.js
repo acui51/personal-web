@@ -13,10 +13,10 @@ export default function Intro() {
     <div className={styles.Intro}>
       <h1>Hi, I'm Alix ⛰️</h1>
       <p>
-        I'm currently a sophomore studying Computer Science at Stanford, and I'm
-        considering the Human Computer Interaction track. On the side, I enjoy
-        creating web applications and learning about new modern frameworks and
-        technologies.
+        I'm currently taking a leave of absence from Stanford and interning at
+        The Washington Post as a software engineer on the site team. On the
+        side, I enjoy creating web applications and learning about new modern
+        frameworks and technologies.
       </p>
       <div className={styles.Icons}>
         <div className={styles.Icon}>
