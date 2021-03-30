@@ -4,7 +4,9 @@ import ProjectTechnology from "./ProjectTechnology/ProjectTechnology";
 import { AiFillGithub } from "react-icons/ai";
 import ALIdemo from "../../../assets/alidemo.gif";
 import Telehistorydemo from "../../../assets/telehistorydemo.gif";
-import Sproutdemo from "../../../assets/sproutdemo.gif";
+// import Sproutdemo from "../../../assets/sproutdemo.gif";
+import Sproutdemo from "../../../assets/sproutdemo1.gif";
+
 
 /**
  * Project Card Component Credit goes to markelrayes
