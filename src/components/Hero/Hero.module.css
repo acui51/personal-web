@@ -1,7 +1,7 @@
 .Hero {
   display: flex;
-  flex-flow: column;
   min-height: 100vh;
+  flex-flow: column;
   align-items: center;
   justify-content: center;
   max-width: 960px;

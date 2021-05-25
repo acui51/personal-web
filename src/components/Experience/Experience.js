@@ -11,7 +11,7 @@ export default function Experience() {
         company={"Amazon"}
         color={"#FF9900"}
         occupation={"Software Development Engineer Intern"}
-        description={["Incoming Summer 2021"]}
+        description={["Incoming Summer 2021 (AWS)"]}
         dates={"Jun 2021 - Sep 2021"}
       />
       <ExperienceCard
@@ -32,25 +32,24 @@ export default function Experience() {
           "Migrated from Bootstrap V3 to Bootstrap V4 with a complete responsive redesign of the application chrome",
         ]}
         technologies={["JavaScript (ES6)", "jQuery", "Java", "Subversion SVN"]}
-        dates={"Jun 2020 - Present"}
+        dates={"Jun 2020 - April 2021"}
       />
       <ExperienceCard
         company={"Stanford Carta"}
         color={"#B83A4B"}
         occupation={"Front-end Engineer"}
         description={[
-          "Aiding in front-end development for Carta V2 and V3",
-          "Built out new landing page for unlogged in users",
+          "Improving on Carta V2 and help building Carta V3 from the ground up",
           <a
             href="http://carta-beta.stanford.edu/"
             target="_blank"
             rel="noreferrer"
           >
             {" "}
-            Carta Beta{" "}
+            Carta V2{" "}
           </a>,
         ]}
-        technologies={["React/Redux", "TypeScript"]}
+        technologies={["React", "Redux", "TypeScript", "Storybook"]}
         dates={"Sep 2020 - Present"}
       />
     </div>

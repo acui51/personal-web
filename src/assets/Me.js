@@ -1,4 +1,4 @@
-import * as React from "react"
+import * as React from "react";
 
 function Me(props) {
   return (
@@ -131,7 +131,7 @@ function Me(props) {
         fill="#37474F"
       />
     </svg>
-  )
+  );
 }
 
-export default Me
+export default Me;

@@ -50,7 +50,7 @@ export default function Hero({ route }) {
     <div className={styles.Hero}>
       <Container fluid>
         <Row>
-          <Col sm={9}>
+          <Col sm={9} style={{ alignSelf: "flex-start" }}>
             <div className={styles.Content}>
               <div className={styles.Bubble}>
                 <Bubble2 />
@@ -63,7 +63,9 @@ export default function Hero({ route }) {
               {section}
             </div>
           </Col>
-          <Col sm={3}>{sectionIcon}</Col>
+          <Col sm={3} className={header !== "Intro" && "mt-2"}>
+            {sectionIcon}
+          </Col>
         </Row>
       </Container>
       <Footer />
