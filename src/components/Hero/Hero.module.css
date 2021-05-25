@@ -1,9 +1,14 @@
+@media (min-width: 576px) {
+  .Hero {
+    justify-content: center;
+  }
+}
+
 .Hero {
   display: flex;
   min-height: 100vh;
   flex-flow: column;
   align-items: center;
-  justify-content: center;
   max-width: 960px;
   margin-left: auto;
   margin-right: auto;
