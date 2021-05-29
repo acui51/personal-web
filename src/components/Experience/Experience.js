@@ -15,10 +15,15 @@ export default function Experience() {
         dates={"Jun 2021 - Sep 2021"}
       />
       <ExperienceCard
-        company="Washington Post"
+        company="The Washington Post"
         color="#212121"
         occupation="Software Engineer Intern"
-        description={["Incoming Spring 2021 (Site Team)"]}
+        description={[
+          "Building front-end components using React.js for the home and article pages",
+          "Writing unit tests using Jest and Enzyme and E2E tests using Cypress",
+          "Working in agile development following scrum methodologies",
+        ]}
+        technologies={["Next.js", "Jest", "Enzyme", "Cypress", "Storybook"]}
         dates="Mar 2021 - June 2021"
       />
       <ExperienceCard
